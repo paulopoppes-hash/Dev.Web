@@ -1,0 +1,610 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stile.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="assets/logo.png" class="logo">
+        
+        <div class="itens">
+            <p>Livros</p>
+            <p>Coleção Digital</p>
+            <p>Eventos</p>
+            <p>Serviços</p>
+            <p>Sobre Nós</p>
+        </div>
+        <input type="button"
+        value="Login Membro"
+        class="botao"></input>
+    </div>
+    <div class="hero">
+        <h1>Sua porta de entrada para o<br> <span class='span'>Conhecimento</span> e descoberta.</h1>
+        <p>acesse milhões de livros, jornais e midias digitais de todos lugares.</p>
+
+        <div class='input_container'>
+            <input type= "text" placeholder="Seach de catalog, authors or ISBN..." class="pesquisa">
+            <input type="button" value="Explore ..." class="botao">
+        </div>
+    </div>
+    
+    <div class="Livros">
+        <div class="textos"> 
+            <h3>Novidades</h3>
+            <p>Ver Mais  ></p>
+        </div>
+        
+        <div class="cards">
+            <div class="card">
+                <div class="livrinho"><img src="assets/image livro roxo.avif"></div>
+                <h1>Mickey Mouse</h1>
+                <p>Dodie Smith</p>
+                <button>Alugar</button>
+            </div>
+            <div class="card">
+                <div class="livrinho"><img src="assets/imagem livro azul.webp"></div>
+                <h1>Cinderela</h1>
+                <p>Charles Perrault</p>
+                <button>Alugar</button>
+            </div>
+            <div class="card">
+                <div class="livrinho"><img src="assets/image.png"></div>
+                <h1>A Bella e a Fera</h1>
+                <p>Gabrielle Suzanne</p>
+                <button>Alugar</button>
+            </div>
+            <div class="card">
+                <div class="livrinho"><img src="assets/image livro vermelho.webp"></div>
+                <h1>101 Dalmatas</h1>
+                <p>Dodie Smith</p>
+                <button>Alugar</button>
+            </div>
+        </div>
+    </div>
+    <div class="peruibe">
+            <div class="tds">
+            
+                <div class="ttp">
+                    <p>ESTOU CONECTADO</p>
+                    <h3>Próximos Eventos</h3>
+                </div>
+                
+                <button class="butao">Ver Todo Catálogo</button>
+
+            </div>
+        <div class="cartoes">
+            <div class="cartao">
+                <div class="calendarios">
+                    <div class="icon1">
+                        <div class="calendario">
+                            <h5>14</h5>
+                            <h5>OUT</h5>
+                        </div>
+                        <img src="assets/calendario.png">
+                    </div>
+                    <h1>Clube do Livro</h1>
+                    <h3>Discutindo o Amanhã todas as manhãs.</h3>
+                    
+                    <h4 id="r1">Registrar  ➝</h4>
+                </div>
+            </div>
+             <div class="cartao">
+                <div class="calendarios">
+                    <div class="icon1">
+                        <div class="calendario">
+                            <h5>18</h5>
+                            <h5>OUT</h5>
+                        </div>
+                        <img src="assets/playtime.png">
+                    </div>
+                    <h1>História Infantil</h1>
+                    <h3>Sessão interativa de leitura para crianças de 3 a 7 anos.  Todos os pais são bem vindos. </h3>
+                    
+                    <h4 id="r2">Registrar  ➝</h4>
+                </div>
+            </div>
+             <div class="cartao">
+                <div class="calendarios">
+                    <div class="icon1">
+                        <div class="calendario">
+                            <h5>22</h5>
+                            <h5>OUT</h5>
+                        </div>
+                        <img src="assets/escrita.png">
+                    </div>
+                    <h1>Papo com Shakespeare</h1>
+                    <h3>Uma noite de discussão com a IA<br>do premiado escritor de Romances. </h3>
+                    
+                    <h4 id="r3">Registrar  ➝</h4>
+                </div>
+            </div>  
+        </div>
+    </div>
+      <div class="HowWe">
+        <div class="textoHow">
+            <h1>Como Podemos Ajudar?</h1>
+            <p>Além dos livros, a Bibliotech oferece ferramentas modernas e suporte para fortalecer sua jornada de<BR> aprendizado.</p>
+        </div>
+        <div class="cardPg4">
+            <div class="textoCardPg4">
+                <img class ="img-icon " src="assets/computador.png" >
+
+                <h2>Aluguel Digital</h2>
+                <p>Empreste eBooks, audiolivros e conteúdos de streaming<br>diretamente nos seus dispositivos.
+                 </p>
+            </div>
+            <div class="textoCardPg4">
+                <img class ="img-icon " src="assets/abertura-da-porta-aberta.png" >
+                
+                <h2>Porta de Estudos</h2>
+                <p>Reserve salas privadas para projetos colaborativos ou para<br>foco silencioso.</p>
+            </div>
+            <div class="textoCardPg4">
+                <img class ="img-icon " src="assets/mente-global (1).png" >
+                
+                <h2>Precisa de Ajuda?</h2>
+                <p>Sessões individuais com nossos bibliotecários para ajudar você<br> a navegar por bases de dados acadêmicas e arquivos.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="final">
+
+
+
+
+        <div class="acabou">
+                    <div class="coluna2">
+                    <img class="logo_black" src="assets/logo_black.png">
+                    <p class="modern"> Biblioteca moderna que promove o<br>conhecimento e incentiva nossa<br>comunidade a explorar o mundo<br> ilimitado das páginas impressas.</p>
+                        <div class="redes">
+                            <img src="assets/twitter.png">
+                            <img src="assets/instagram.png">
+                        </div>
+                    </div>
+
+
+                <div class="coluna1">
+                   
+                    <h3>Fale Conosco</h3>
+                       
+                    <div class="item">
+                        <img src="assets/pino-de-localizacao.png">
+                        <p>Av. Rio Branco 219, Rio de Janeiro</p>
+                    </div>
+                   
+                    <div class="item">
+                        <img src="assets/telefone.png">
+                        <p>(555) 123-4567</p>
+                    </div>
+
+
+
+
+                    <div class="item">
+                        <img src="assets/envelope.png">
+                        <p>hello@bibliotech.io</p>
+                    </div>        
+                </div>
+                    <div class="coluna3">
+                    <h3>Horário de Operação</h3>
+                    <p class="linha"><span class="p1">Seg - Sex:</span><strong>8am - 9pm</strong><br> <span class="p1">Sábado:</span><strong>10am  6pm</strong><br><span class="p1">Domingo:</span><strong>12pm - 5pm</strong></p>
+                    </div>    
+
+
+
+
+                    <div class="coluna1">
+                    <h3>Links Rápidos</h3>
+                    <p>Renovar Livros<br> Doar<br> Voluntariado<br> Política de Privacidade</p>
+                    </div>  
+        </div>
+
+
+    </div>
+             <footer class="fim">
+                <p>© 2026 Biblioteca Pública Bibliotech. Todos os direitos reservados. Construído para a comunidade..</p>
+                </footer>
+
+</body>
+
+
+
+
+CSS
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    width: 98.65vw;
+}
+
+.itens{
+    display: flex;
+    gap: 30px;
+}
+
+.botao{
+    background-color: rgb(190, 87, 18);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+.hero{
+    text-align: center;
+    width: 98.65vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('assets/capa.jpg');
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h1{
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.hero p{
+    color: white;
+}
+
+.pesquisa{
+    padding: 2vh 5vw 2vh 1vw;
+    border: none;
+    outline: rgb(190, 87, 18);
+    font-size: 1 rem;
+    border-radius: 10px;
+    width:300px ;
+}
+
+.input_container{
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: rgba(213, 213, 213, 0.628);
+}
+
+.Livros{
+    height: 100vh;
+    width: 98.65vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(236, 235, 235);
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    padding: 2vh 1vw 1vh;
+}
+.span{
+    color: rgb(190, 87, 18);
+}
+
+.textos{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-block: 7vh;
+    width: 90%;
+    padding: 7vh 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textos p{
+    font-size: 1.2rem;
+    color:#BE5712 ;
+}
+.textos h3{
+    font-size: 2rem;
+}
+.livrinho img{
+    width: 250px;
+    height: 230px;
+    border-radius: 15px;
+}
+.card button{
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color:#ffeeea;
+    border: none;
+    padding-block: 10px;
+}
+.peruibe{
+    height: 100vh ;
+    background-color:#D1D9DD;
+    width: 98.65vw;
+}
+.tds{
+    background-color:#D1D9DD;
+    width: 100%;
+    padding: 12vh 5vw 0 5vw;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+.ttp p{
+    padding-bottom:1px;
+    color:#BE5712 ;
+}
+.ttp h3{
+    font-size: 2rem;
+}
+.butao{
+    background-color: white;
+    border-radius:10px;
+    border: none;
+    height:7vh ;
+    width: 14vw;
+}
+.cartoes{
+    width: 100%;
+    background-color:#D1D9DD;
+    height: 79%;
+}
+.cartao{
+    height:40vh;
+    width:25vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2.5vh 1.2vw;
+}
+.calendario{
+    background-color: #EFD5CE;
+    height:9vh ;
+    width:4vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #BE5712;
+}
+.icon1{
+    display: flex;
+    justify-content:space-between;
+}
+.calendarios h1{
+    margin-top: 1vh;
+    padding-top: 2vh;
+    font-size: 1.8rem;
+}
+
+.calendarios h3{
+    padding-top: 2vh;
+    font-size: 1rem;
+    color: rgb(102, 101, 101);
+}
+
+.calendarios h4{
+    padding-top: 5vh;
+    color: #BE5712;
+    font-size: 0.9rem;
+}
+.icon1 img{
+    height: 5vh;
+    padding: 1vh;
+}
+
+.icon1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#r1{
+    margin-top: 10px;
+}
+
+#r2{
+    margin-top: -18px;
+}
+
+#r3{
+    margin-top: -8px;
+}
+
+.HowWe{
+    background-color: #F8F7F6;
+    height: 80vh;
+}
+.textoHow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 16vh;
+    gap: 12px;
+}
+.textoHow p{
+    color: gray;
+}
+.cardPg4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.cardsPg4{
+    display: flex;
+    flex-direction: row;
+}
+.img-icon{
+    padding-top: 10vh;
+    width: 10vh;
+}
+.textoCardPg4{
+    flex-direction: column;
+    text-align: center;
+}
+.textoCardPg4 p{
+    color: gray;
+}
+
+
+.final{
+    background-color: black;
+    width: 100%;
+    padding: 40px 20px;
+    }
+   
+.acabou {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    color: white;
+}
+
+
+
+
+.logo_black{
+    margin-left: -31px;
+    margin-top: -30px;
+}
+
+
+
+
+    .coluna2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+    background:none;
+    text-align: left;
+    max-width: 300px;
+
+
+
+
+    }
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+    background:none;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+.logo {
+    width: 140px;
+    height: auto;
+    margin: 0;
+}
+
+
+
+
+.redes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+.redes img {
+    width: 20px;
+    height: auto;
+}
+    .coluna1 img{
+        width: 16px;
+        height: 16px;
+        margin-top:13px;
+        margin-bottom: 13px;
+       
+    }
+    .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+  
+.coluna3{
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 250px;
+background:none;
+line-height: 1.8;   
+    }
+
+.p1{
+        margin-right: 80px;
+    }
+
+.fim{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+
+.coluna1,
+.coluna2,
+.coluna3 {
+    flex: 1 1 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+
